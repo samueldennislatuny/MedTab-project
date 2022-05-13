@@ -1,0 +1,201 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btn {
+  width: 150px;
+  text-align: center;
+}
+.ButtonBox {
+  position: relative;
+  font-style: bold;
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-top: 130px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.imglogo {
+  height: 25px;
+  width: 25px;
+}
+
+.imgdoctors {
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  z-index: -1;
+}
+
+.imgdoctor2 {
+  width: 100%;
+  height: 850px;
+  margin-top: 90px;
+  z-index: -1;
+  position: absolute;
+}
+
+.imgstethoscope {
+  width: 40px;
+  height: 40px;
+}
+
+.imgdoctor {
+  width: 40px;
+  height: 40px;
+}
+
+.imgheartbeat {
+  width: 40px;
+  height: 40px;
+}
+
+.imgheartbeats {
+  width: 40px;
+  height: 40px;
+}
+
+.imgpeople {
+  width: 40px;
+  height: 40px;
+}
+
+.imgreport {
+  width: 40px;
+  height: 40px;
+}
+
+.imgpills {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  margin-left: 700px;
+  margin-top: -250px;
+}
+
+.imgvirus {
+  width: 350px;
+  height: 250px;
+}
+
+.imgdentist {
+  width: 350px;
+  height: 250px;
+}
+
+.imgdownload {
+  width: 350px;
+  height: 250px;
+}
+
+.imgpharmacy {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin-left: 850px;
+  margin-top: -50px;
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  margin-left: 100px;
+}
+
+.nav-item {
+  justify-content: center;
+  text-align: center;
+  width: 10px;
+}
+
+.nav-items {
+  width: 300px;
+  margin-left: 150px;
+}
+
+.navbar {
+  background-color: rgb(178, 216, 247);
+}
+
+.navbar-brand {
+  font-family: sans-serif;
+}
+
+.nav-link {
+  color: black;
+  text-align: center;
+}
+
+.nav-links {
+  height: 20px;
+  width: 30px;
+  color: #000;
+}
+
+.nav-text {
+  text-align: left;
+  justify-content: center;
+  height: 50px;
+  position: relative;
+}
+
+.welcome-text {
+  position: relative;
+  text-shadow: 100px;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+  width: 370px;
+  margin-left: 480px;
+  margin-right: 500px;
+}
+
+.h4 {
+  font-weight: bolder;
+}
+
+.question-text {
+  position: relative;
+  text-shadow: 100px;
+  justify-content: left;
+  text-align: left;
+  height: 50px;
+  width: 370px;
+  margin-left: 150px;
+  margin-right: 500px;
+  margin-top: 200px;
+}
+
+.what-do {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-top: 200px;
+}
