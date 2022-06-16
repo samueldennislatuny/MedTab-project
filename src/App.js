@@ -39,7 +39,7 @@ function App() {
   document.title = "Medtab";
   return (
     <div className="App">
-      <div>
+      <div className="navbar-med">
         <Navbar bg="info" expand="lg">
           <Container fluid>
             <img src={imglogo} alt="img Cardio" className="imglogo" />
@@ -70,32 +70,41 @@ function App() {
           </Container>
         </Navbar>
       </div>
+      <div>
+        <Carousel className="carousel">
+          <Carousel.Item>
+            <img className="imgdoctors" src={imgdoctors} alt="First slide" />
+            <Carousel.Caption>
+              <h3></h3>
+              <p></p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="imgcarousel2"
+              src={imgcarousel2}
+              alt="Second slide"
+            />
 
-      <Carousel>
-        <Carousel.Item>
-          <img className="imgdoctors" src={imgdoctors} alt="First slide" />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="imgcarousel2" src={imgcarousel2} alt="Second slide" />
+            <Carousel.Caption>
+              <h3></h3>
+              <p></p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="imgcarousel3"
+              src={imgcarousel3}
+              alt="Third slide"
+            />
 
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="imgcarousel3" src={imgcarousel3} alt="Third slide" />
-
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+            <Carousel.Caption>
+              <h3></h3>
+              <p></p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
 
       <div class="top-container">
         <div style={{ marginTop: "-450px" }}>

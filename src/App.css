@@ -20,12 +20,12 @@
   position: relative;
   font-style: bold;
   display: flex;
-  width: 300px;
+  width: 20%;
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
   margin-top: 130px;
-  margin-left: 500px;
+  margin-left: 40%;
   margin-right: 500px;
 }
 
@@ -175,6 +175,13 @@
   text-align: center;
 }
 
+.navbar-med {
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  z-index: +1;
+}
+
 .navbar-nav {
   margin-left: 100px;
 }
@@ -216,15 +223,18 @@
   position: relative;
 }
 
+.top-container {
+  justify-content: center;
+}
+
 .welcome-text {
   position: relative;
   text-shadow: 100px;
   justify-content: center;
   text-align: center;
   height: 50px;
-  width: 370px;
-  margin-left: 480px;
-  margin-right: 500px;
+  width: 20%;
+  margin-left: 40%;
 }
 
 .h4 {
